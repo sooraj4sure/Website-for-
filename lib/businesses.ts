@@ -1384,7 +1384,7 @@ export const businesses: Business[] = [
       "Single-practitioner dependency (Dr. Payal)"
     ],
     "accent": "#0d9488",
-    "heroImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/691215664_122120944641228208_8266933529973553820_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=eed8e3&_nc_ohc=rel1afoRlj8Q7kNvwEsxuOU&_nc_oc=AdrAq-2nlD2_ltAlPbvPzmED-QPwX89nlJ1W6hMw2fbk-C5SuZ5VfT1966gbCpGlShG4NORLREl2GlhiBqYx_yXM&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=ZLUgSthUfdyKWHp6onuDqw&oh=00_AQNgDMfyWLg6i2otmwBitrD7freD3SuBf_TltgWltRjSpw&oe=6AE167B9",
+    "heroImage": "https://images.pexels.com/photos/6812548/pexels-photo-6812548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "galleryImages": []
   },
   {
@@ -1555,7 +1555,7 @@ export const businesses: Business[] = [
       "No Return / No Exchange / No COD policy stated in its own bio - e-commerce features beyond a catalogue + WhatsApp order flow are unlikely to fit"
     ],
     "accent": "#9d174d",
-    "heroImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/719852665_1512542473905898_9207887252452335866_n.jpg?stp=cp1_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=957871&_nc_ohc=M3D7WjSEaVIQ7kNvwEKbWN5&_nc_oc=Adq1EEhGbsGWxJckvWIXXJSQspCwtosok2RNgvqD6uZ1adks-R8gJg7EznW4fDhBqO1VUh9J8fB6HOvE9BjxIgWG&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=Zy3OzEgTAvgUNtEOIvCSWQ&oh=00_AQMSd0PvZ3tfI_FYEaacDnHilY_Bcmzqvy7XwS-TtLObtw&oe=6AE16D21",
+    "heroImage": "https://images.pexels.com/photos/31321857/pexels-photo-31321857.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
     "galleryImages": []
   },
   {

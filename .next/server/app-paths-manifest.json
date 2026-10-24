@@ -1,9 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
+  "/site/[slug]/page": "app/site/[slug]/page.js",
   "/site/[slug]/menu/page": "app/site/[slug]/menu/page.js",
   "/site/[slug]/services/page": "app/site/[slug]/services/page.js",
-  "/site/[slug]/page": "app/site/[slug]/page.js",
-  "/site/[slug]/about/page": "app/site/[slug]/about/page.js",
-  "/site/[slug]/gallery/page": "app/site/[slug]/gallery/page.js"
+  "/site/[slug]/about/page": "app/site/[slug]/about/page.js"
 }
