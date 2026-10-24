@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* Luxury type scale: everything a touch larger than default, so the
+     sites read beautifully on a phone without zooming. */
+  font-size: 17px;
+}
+
+body {
+  @apply bg-[#FBF8F3] text-[#171310] antialiased;
+  line-height: 1.6;
+}
+
+/* Luxury serif for headings — Playfair Display, loaded in layout.tsx,
+   with a classic serif stack as fallback. */
+.font-display {
+  font-family: var(--font-playfair, Georgia, "Times New Roman", serif);
+  letter-spacing: -0.01em;
+}
+
+/* Cool doodle handwriting for menu item names — Caveat, with a
+   handwriting fallback. Deliberately big on mobile: menu names are the
+   thing people actually read on a phone. */
+.font-doodle {
+  font-family: var(--font-caveat, "Segoe Print", "Comic Sans MS", cursive);
+  line-height: 1.1;
+}
+
+/* Cute-yet-classy mobile menu cards: soft shadow, warm cream card. */
+.menu-card {
+  box-shadow: 0 12px 32px rgba(23, 19, 16, 0.1);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.menu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(23, 19, 16, 0.16);
+}
+.menu-card img {
+  transition: transform 0.7s ease;
+}
+.menu-card:hover img {
+  transform: scale(1.04);
+}
+
+/* Scroll-reveal animation (see components/reveal.tsx). */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slow, calm hero zoom — European luxury, not flashy. */
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+.hero-zoom {
+  animation: heroZoom 14s ease-in-out infinite alternate;
+}
+
+/* Button press feedback. */
+.btn-press {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .hero-zoom, .menu-card, .menu-card img, .btn-press {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+::selection {
+  background: #171310;
+  color: #f5d98b;
+}
